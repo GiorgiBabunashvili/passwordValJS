@@ -52,6 +52,27 @@ input {
     4px 4px 10px rgba(0, 0, 0, 0.05);
 }
 
+button {
+  border: none;
+  outline: none;
+  background: transparent;
+  height: 35px;
+  font-size: 20px;
+  width: 50%;
+  text-transform: uppercase;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: -4px -4px 10px rgba(255, 255, 255, 1),
+    inset 4px 4px 10px rgba(0, 0, 0, 0.05),
+    inset -4px -4px 10px rgba(255, 255, 255, 1),
+    4px 4px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease-out;
+}
+
+button:hover {
+  letter-spacing: 2px;
+}
+
 div {
   width: 100%;
   height: auto;

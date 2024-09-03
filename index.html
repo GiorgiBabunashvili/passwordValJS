@@ -13,13 +13,16 @@
         <h1>Password Validation</h1>
         <form>
             <label>Password</label>
-            <input type="password" name="password" id="password" placeholder="Enter password..">
+            <input type="password" name="password" id="password" placeholder="Enter password.." onkeyup="check()">
 
             <br>
             <br>
 
             <label>Password</label>
-            <input type="password" name="password" id="password2" placeholder="Enter confirm password..">
+            <input type="password" name="password" id="password2" placeholder="Enter confirm password.."
+                onkeyup="check()">
+
+            <button id="button">Submit</button>
         </form>
         <div class="result">
             <span id="length"><ion-icon name="checkmark-circle-outline"></ion-icon> Min 8 Charachters</span>
