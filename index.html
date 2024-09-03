@@ -5,10 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Validation</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div class="main">
+        <h1>Password Validation</h1>
+        <form>
+            <label>Password</label>
+            <input type="password" name="password" id="password" placeholder="Enter password..">
 
+            <br>
+            <br>
+
+            <label>Password</label>
+            <input type="password" name="password" id="password2" placeholder="Enter confirm password..">
+        </form>
+        <div class="result">
+            <span id="length"><ion-icon name="checkmark-circle-outline"></ion-icon> Min 8 Charachters</span>
+            <span id="number"><ion-icon name="checkmark-circle-outline"></ion-icon> Use Number</span>
+            <span id="lowercase"><ion-icon name="checkmark-circle-outline"></ion-icon> Lowercase letter</span>
+            <span id="upercase"><ion-icon name="checkmark-circle-outline"></ion-icon> Uppercase letter</span>
+            <span id="special"><ion-icon name="checkmark-circle-outline"></ion-icon> Special Charachter</span>
+            <span id="passAndConf"><ion-icon name="checkmark-circle-outline"></ion-icon> Confirm Password and
+                Password</span>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
